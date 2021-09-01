@@ -5,6 +5,8 @@ slug: blog-post
 date: 2021-03-10
 ---
 
+# {title}
+
 OBS made pretty easy to turn a phone into a virtual webcam but I wanted to see if I was able to find an alternative that uses less resources. I want to say that OBS isn't bad at all in this regard, but it comes with some overhead that can be avoided considering the particular use case of a simple webcam.
 
 On the Android side I use [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_US&gl=US). The interface is pretty old but the functionalities that it offers are the most complete and reliable I could find.

@@ -8,7 +8,6 @@ export async function get() {
 		posts.push(post.metadata);
 	}
 
-	// Sort posts by descending date
 	posts.sort((a, b) => (a.date > b.date ? -1 : 1));
 
 	return {

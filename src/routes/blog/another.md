@@ -5,4 +5,6 @@ slug: another
 date: 2021-03-11
 ---
 
-Another One!
+# {title}
+
+Another One body woo!

@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="/app.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
 	</head>
@@ -10,3 +11,19 @@
 		<div id="svelte">%svelte.body%</div>
 	</body>
 </html>
+
+<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	a {
+		color: black;
+	}
+
+	html,
+	body {
+		margin: 1rem;
+		font-family: sans-serif;
+	}
+</style>
