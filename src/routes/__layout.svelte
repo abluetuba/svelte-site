@@ -11,4 +11,7 @@
 	nav a {
 		margin-right: 0.5rem;
 	}
+	article p {
+		color: red;
+	}
 </style>

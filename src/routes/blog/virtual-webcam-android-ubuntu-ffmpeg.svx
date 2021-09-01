@@ -1,11 +1,9 @@
 ---
 title: Faster Virtual Webcam with Android, Ubuntu and FFmpeg
 excerpt: Optimize resources used by a virtual webcam
-slug: blog-post
+slug: virtual-webcam-android-ubuntu-ffmpeg
 date: 2021-03-10
 ---
-
-# {title}
 
 OBS made pretty easy to turn a phone into a virtual webcam but I wanted to see if I was able to find an alternative that uses less resources. I want to say that OBS isn't bad at all in this regard, but it comes with some overhead that can be avoided considering the particular use case of a simple webcam.
 

@@ -19,6 +19,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>tuba's projects</title>
+</svelte:head>
+
 <h1>Projects</h1>
 <main>
 	{#each projects as { title, description, links, image }}
@@ -39,6 +43,6 @@
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
 	main div {
-		padding-rigt: 0.5rem;
+		padding-right: 0.5rem;
 	}
 </style>

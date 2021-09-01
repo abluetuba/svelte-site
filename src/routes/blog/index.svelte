@@ -21,6 +21,10 @@
 	export let posts = [];
 </script>
 
+<svelte:head>
+	<title>tuba's blog</title>
+</svelte:head>
+
 <h1>blog</h1>
 <ul>
 	{#each posts as { slug, title, date, excerpt }}
