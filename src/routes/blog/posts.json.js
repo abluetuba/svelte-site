@@ -1,5 +1,5 @@
 export async function get() {
-	const modules = import.meta.glob('./*.md');
+	const modules = import.meta.glob('./*.svx');
 
 	let posts = [];
 
