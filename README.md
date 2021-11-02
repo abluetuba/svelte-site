@@ -1,3 +1,5 @@
 # svelte-site
 
-Svelte (and SvelteKit) version of my personal website.
+My personal website, made with Svelte and SvelteKit.
+
+[tuba.dev](https://www.tuba.dev)
