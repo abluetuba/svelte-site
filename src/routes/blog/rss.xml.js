@@ -2,8 +2,6 @@ export async function get() {
 	const modules = import.meta.glob('./*.svx');
 	let posts = [];
 
-	console.log(modules);
-
 	for (const path in modules) {
 		const post = await modules[path]();
 		posts.push(post.metadata);
@@ -16,7 +14,7 @@ export async function get() {
 		body: `<?xml version="1.0" encoding="UTF-8" ?>
 		<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 		<channel>
-		<atom:link href="https://tuba.dev/blog/rss" rel="self" type="application/rss+xml" />
+		<atom:link href="https://tuba.dev/blog/rss.xml" rel="self" type="application/rss+xml" />
 		<title>tuba'sblog</title>
 		<link>https://tuba.dev/blog</link>
 		<description>tuba's blog - tuba.dev</description>
