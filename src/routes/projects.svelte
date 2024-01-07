@@ -2,8 +2,7 @@
 	const projects = [
 		{
 			title: 'unoXdue',
-			description:
-				'PWA that displays the results and the table of the Serie A (Italian football league).',
+			description: 'A website that shows the results of the Serie A (Italian football league)',
 			links: ['https://unoxdue.netlify.app', 'https://github.com/abluetuba/unoxdue'],
 			image: 'unoxdue.jpg'
 		},
