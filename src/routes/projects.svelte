@@ -1,6 +1,12 @@
 <script>
 	const projects = [
 		{
+			title: 'ISS Tracker',
+			description: 'A website that tracks the location of the International Space Station',
+			links: ['https://msnctrl.netlify.app', 'https://github.com/abluetuba/mission-control'],
+			image: 'iss.jpg'
+		},
+		{
 			title: 'unoXdue',
 			description: 'A website that shows the results of the Serie A (Italian football league)',
 			links: ['https://unoxdue.netlify.app', 'https://github.com/abluetuba/unoxdue'],
