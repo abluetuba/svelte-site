@@ -4,13 +4,13 @@
 			title: 'ISS Tracker',
 			description: 'A website that tracks the location of the International Space Station',
 			links: ['https://msnctrl.netlify.app', 'https://github.com/abluetuba/mission-control'],
-			image: 'iss.jpg'
+			image: '/iss.jpg'
 		},
 		{
 			title: 'unoXdue',
 			description: 'A website that shows the results of the Serie A (Italian football league)',
 			links: ['https://unoxdue.netlify.app', 'https://github.com/abluetuba/unoxdue'],
-			image: 'unoxdue.jpg'
+			image: '/unoxdue.jpg'
 		},
 		{
 			title: 'unoXdue - flutter',
@@ -19,7 +19,7 @@
 				'https://unoxdue-flutter.netlify.app',
 				'https://github.com/abluetuba/unoxdue-flutter'
 			],
-			image: 'scores.jpg'
+			image: '/scores.jpg'
 		}
 	];
 </script>
