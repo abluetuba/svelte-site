@@ -15,10 +15,7 @@
 		{
 			title: 'unoXdue - flutter',
 			description: 'Flutter version of unoXdue',
-			links: [
-				'https://unoxdue-flutter.netlify.app',
-				'https://github.com/abluetuba/unoxdue-flutter'
-			],
+			links: ['https://github.com/abluetuba/unoxdue-flutter'],
 			image: '/scores.jpg'
 		}
 	];
